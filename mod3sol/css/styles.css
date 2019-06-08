@@ -1,0 +1,83 @@
+body{
+  font-size: 16px;
+  color: black;
+  background-color: white ; 
+  font-family: sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #bfbfbf;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-header{
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.navbar-brand {
+    height: 60px;
+    padding: 0;
+    margin: 0;
+  }
+
+.navbar-brand h1 { /* Cafe Name */
+  font-family: arial;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;	
+  vertical-align: center;
+  /*margin-bottom: 0;*/
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  font-family: cursive;
+  vertical-align: center;
+  padding-top: 0;
+  padding-bottom: 15px;
+}
+
+
+#nav-list a:hover {
+  background: #ffffe6;
+}
+/***** END OF NAV *****/
+
+/****HEADER *****/
+.ph{
+	color: black;
+	margin-top: 30px;
+	font-family: arial;	
+}
+//** END OF <HEADER> ****/
+
+/****** body *****/
+
+.mukera{
+	color: blue;
+}
+
+main .container{
+  background-color: #cccccc;
+  width: 93%;
+  height: 1000px;
+  margin-top: 40px;
+  margin-bottom:10px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: -15px;
+  font-family: sans-serif;
+  position: relative;
+}
